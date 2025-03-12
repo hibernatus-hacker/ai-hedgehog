@@ -2,7 +2,9 @@
 
 Your friendly AI coding companion that provides real-time feedback on your code as you write it.
 
-![AI-Hedgehog Demo](demo.gif)
+Instead of complex and fancy copilot or cursor style solutions just open this tool from the command line along side your favourite editor.
+
+Hedgehog's always recommend writing code yourself to stay sharp but having help and getting suggestions isn't a bad idea!
 
 ## Features
 
@@ -15,8 +17,8 @@ Your friendly AI coding companion that provides real-time feedback on your code 
 ## Installation
 
 ```bash
-# Install globally
-npm install -g ai-hedgehog
-
-# Or use with npx
-npx ai-hedgehog --directory ./your-project
+git clone https://github.com/hibernatus-hacker/ai-hedgehog
+cd ai-hedgehog
+npm link
+ai-hedgehog -d ./directory_to_watch # from anywhere
+```
