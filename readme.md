@@ -16,9 +16,13 @@ Hedgehog's always recommend writing code yourself to stay sharp but having help 
 
 ## Installation
 
+Requires a [replicate.com](https://replicate.com) account.
+
 ```bash
+export REPLICATE_API_TOKEN=r8_xxx
 git clone https://github.com/hibernatus-hacker/ai-hedgehog
 cd ai-hedgehog
+npm i
 sudo npm link
 ai-hedgehog -d ./directory_to_watch # from anywhere
 ```
