@@ -19,6 +19,18 @@ Hedgehog's always recommend writing code yourself to stay sharp but having help 
 ```bash
 git clone https://github.com/hibernatus-hacker/ai-hedgehog
 cd ai-hedgehog
-npm link
+sudo npm link
 ai-hedgehog -d ./directory_to_watch # from anywhere
 ```
+
+## Disclaimer
+
+This is suitable for working on open source projects but don't use this on proprietary code bases.
+
+Using replicate means that your sending code to a third party. 
+
+Don't use this project on any code with sensitive hardcoded secrets. 
+
+## Todo.
+
+Allow integrating with ollama for running local models.
